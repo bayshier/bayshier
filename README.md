@@ -10,11 +10,3 @@ A Android developer from China🔥.
   </a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/bayshier/MVPKotlin_Commonlib">
-  </a>  
-  <a href="https://github.com/bayshier">
-    <img src="https://komarev.com/ghpvc/?username=bayshier&color=brightgreen" />
-  </a>
-</p>
-
