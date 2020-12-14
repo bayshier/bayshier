@@ -2,7 +2,7 @@
 
 Hi, I am Easin😃.
 
-A Android developer from China.
+A Android developer from China🔥.
 
 <p align="left">
   <a href="https://github.com/bayshier">
@@ -12,10 +12,9 @@ A Android developer from China.
 
 <p align="center">
   <a href="https://github.com/bayshier/MVPKotlin_Commonlib">
-    <img src="https://img.shields.io/badge/🔥%20Android-Notes-brightness.svg"
   </a>  
   <a href="https://github.com/bayshier">
-    <img src="https://komarev.com/ghpvc/?username=Omooo&color=brightgreen" />
+    <img src="https://komarev.com/ghpvc/?username=bayshier&color=brightgreen" />
   </a>
 </p>
 
