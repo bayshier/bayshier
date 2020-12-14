@@ -4,3 +4,18 @@ Hi, I am Easin😃.
 
 A Android developer from China.
 
+<p align="left">
+  <a href="https://github.com/bayshier">
+    <img src="https://github-readme-stats.wasabeef.vercel.app/api?username=bayshier&show_icons=true&line_height=21&show_icons=true&theme=vue" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/bayshier/MVPKotlin_Commonlib">
+    <img src="https://img.shields.io/badge/🔥%20Android-Notes-brightness.svg"
+  </a>  
+  <a href="https://github.com/bayshier">
+    <img src="https://komarev.com/ghpvc/?username=Omooo&color=brightgreen" />
+  </a>
+</p>
+
