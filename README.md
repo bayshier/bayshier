@@ -6,7 +6,7 @@ A Android developer from China🔥.
 
 <p align="left">
   <a href="https://github.com/bayshier">
-    <img src="https://github-readme-stats.wasabeef.vercel.app/api?username=bayshier&show_icons=true&line_height=21&show_icons=true&theme=vue" />
+    <img src="https://github-readme-stats.vercel.app/api?username=bayshier&count_private=true&show_icons=true&hide=contribs&include_all_commits=true&theme=vue" />
   </a>
 </p>
 
