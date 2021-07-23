@@ -1,4 +1,4 @@
-<img align='right' src='https://github.com/bayshier/Jetpack-Mvvm/blob/main/62773-yoga-developer.gif' width='200"'>
+<img align='right' src='https://github.com/bayshier/Jetpack-Mvvm/blob/main/62773-yoga-developer.gif' width='300"'>
 
 😃 Hi, I am Easin.
 
