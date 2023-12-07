@@ -3,7 +3,7 @@
 
 <p align="left">
   
-  <img src='https://github.com/bayshier/Jetpack-Mvvm/blob/main/62773-yoga-developer.gif' height="180" width="180" >
+  <img src='https://github.com/bayshier/Jetpack-Mvvm/blob/main/62773-yoga-developer.gif' height="170" width="170" >
 
   <a href="https://github.com/bayshier">
     <img src="https://github-readme-stats.vercel.app/api?username=bayshier&count_private=true&show_icons=true&hide=contribs&include_all_commits=true&theme=vue" />
