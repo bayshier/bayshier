@@ -1,9 +1,10 @@
 
 😃 Hi, I am Easin.
 
-<img src='https://github.com/bayshier/Jetpack-Mvvm/blob/main/62773-yoga-developer.gif' height="200" width="200" >
-
 <p align="left">
+  
+  <img src='https://github.com/bayshier/Jetpack-Mvvm/blob/main/62773-yoga-developer.gif' height="200" width="200" >
+
   <a href="https://github.com/bayshier">
     <img src="https://github-readme-stats.vercel.app/api?username=bayshier&count_private=true&show_icons=true&hide=contribs&include_all_commits=true&theme=vue" />
   </a>
