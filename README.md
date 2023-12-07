@@ -1,7 +1,7 @@
 
 😃 Hi, I am Easin.
 
-<img src='https://github.com/bayshier/Jetpack-Mvvm/blob/main/62773-yoga-developer.gif' width='300"'>
+<img src='https://github.com/bayshier/Jetpack-Mvvm/blob/main/62773-yoga-developer.gif' width='100"'>
 
 <p align="left">
   <a href="https://github.com/bayshier">
