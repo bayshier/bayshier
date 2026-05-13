@@ -2,9 +2,8 @@
 😃 Hi, I am Easin.
 
 <p align="left">
-  
+  <video src="http://t.cn/AXifC0C5" controls="controls" width="100%" height="auto"></video>
   <img src='https://github.com/bayshier/Jetpack-Mvvm/blob/main/62773-yoga-developer.gif' height="170" width="170" >
-
 </p>
 
 ### Currently Studying:
