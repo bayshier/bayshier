@@ -1,11 +1,54 @@
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=auto&height=200&section=header&text=Easin's%20Lab&fontSize=70" width="100%"/>
 
-😃 Hi, I am Easin.
- <video src="http://t.cn/AXifC0C5" controls="controls" width="100%" height="auto"></video>
-<p align="left">
-  <img src='https://github.com/bayshier/Jetpack-Mvvm/blob/main/62773-yoga-developer.gif' height="170" width="170" >
+  <div style="border-radius: 15px; overflow: hidden; box-shadow: 0px 10px 30px rgba(0,0,0,0.5);">
+    <video src="http://t.cn/AXifC0C5" controls="controls" width="100%" height="auto"></video>
+  </div>
+
+  <br/>
+
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=3DDC84&center=true&vCenter=true&width=435&lines=Android+Architect;AI+Engineer+Enthusiast;Jetpack+Compose+Maestro;KMP+Early+Adopter" alt="Typing SVG" />
+</div>
+
+---
+
+### 🧠 AI-Augmented Tech Stack
+
+> **Status:** `Optimizing workflows with Gemini 1.5 Pro & GitHub Copilot`
+
+| **Category** | **Core Competencies** | **Advanced Tools** |
+| :--- | :--- | :--- |
+| **Android** | `Kotlin Flow` `MVI` `Jetpack Compose` | `Gemini Nano` `App Inspection` |
+| **Cross-Platform** | `KMP (Kotlin Multiplatform)` `Flutter` | `Skia Engine` `Platform Channels` |
+| **AI Integration** | `Google AI Edge SDK` `RAG for Mobile` | `Cursor` `Ollama (Local LLM)` |
+| **Engineering** | `Gradle Convention Plugins` `CI/CD` | `Firebase Vertex AI` |
+
+---
+
+### ⚡ Professional Insights
+
+- 🛠 **System Design:** 擅长构建高复用性的 **Clean Architecture**，让 UI 与业务逻辑通过 **MVI** 完美解耦。
+- 🤖 **AI Transformation:** 正在开发基于 **Gemini Nano** 的本地化隐私 AI 处理方案，探索移动端算力极限。
+- 📦 **Modern Tooling:** 拒绝样板代码，深度定制 **Android Studio** 插件以提升 40% 的编码效率。
+
+---
+
+### 📊 Real-time Engineering Metrics
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=bayshier&show_icons=true&theme=tokyonight&rank_icon=github&border_radius=10" height="180" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bayshier&layout=compact&theme=tokyonight&border_radius=10" height="180" />
 </p>
 
-### Currently Studying:
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=bayshier&theme=tokyonight&hide_border=true" alt="streak stats" />
+</p>
 
-<img src='https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=white&style=for-the-badge' height='50'/><img src='https://img.shields.io/badge/flutter-1E90FF?logo=flutter&logoColor=white&style=for-the-badge' height='50'/><img src='https://img.shields.io/badge/IOS-3DDC84?logo=apple&logoColor=white&style=for-the-badge' height='50'/><img src='https://img.shields.io/badge/kotlin-%230095D5.svg?&style=for-the-badge&logo=kotlin&logoColor=white' height='50'/><img src="https://img.shields.io/static/v1?label=&message=android+STUDIO&color=FFFFFF&style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZwogICAgICAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogICAgICB2aWV3Qm94PSIwIDAgMjAwIDI0Mi4yODEwMSI+CiAgPGcKICAgICBpZD0iZzM1IgogICAgIHRyYW5zZm9ybT0ic2NhbGUoNi40OTk1NDM5KSI+CiAgICA8cGF0aAogICAgICAgZD0iTSAxMS41NDEzOSw0LjcxIEggMy4wOTEzODk5IEEgMy4xLDMuMSAwIDAgMCAwLjAwMTM4OTg3LDcuODEgMywzIDAgMCAwIDIuOTExMzg5OSwxMC45IEggMTEuNjAxMzkgWiIKICAgICAgIGZpbGw9IiMwNzMwNDIiCiAgICAgICBpZD0icGF0aDQiIC8+CiAgICA8cGF0aAogICAgICAgZD0iTSAzMC42OTEzOSwzMi4yNiBIIDMuMDgxMzg5OSBBIDMuMSwzLjEgMCAwIDEgMC4wMDEzODk4NywyOS4xNyBWIDcuNzkgQSAzLjEsMy4xIDAgMCAwIDMuMDgxMzg5OSwxMC45MSBIIDI2LjE5MTM5IGMgMCwwIDQuNSwtMC4zOSA0LjUsMyB6IgogICAgICAgZmlsbD0iIzQyODVmNCIKICAgICAgIGlkPSJwYXRoNiIgLz4KICAgIDxwYXRoCiAgICAgICBkPSJtIDE3LjgxMTM5LDIxLjMxIGEgMi43OCwyLjc4IDAgMCAwIC0xLjU5LC01IGggMC4wOSBhIDIsMiAwIDAgMSAwLjQ5LDAgdiAtMS43MiBhIDAuNTYsMC41NiAwIDAgMCAtMC4yNiwtMC40OSAwLjU0LDAuNTQgMCAwIDAgLTAuODEsMC40OSB2IDEuNzUgYSAyLjc4LDIuNzggMCAwIDAgLTIuMzIsMy4xOSAyLjc1LDIuNzUgMCAwIDAgMS4xLDEuODEgTCA5LjQyMTM4OTksMzIuMjIgSCAxMi43NDEzOSBsIDIuMzUsLTUgYSAxLjIxLDEuMjEgMCAwIDEgMi4xOSwwIGwgMi40Miw1IGggMy4zNiB6IG0gLTEuNywtMC40OSBhIDEuNzIsMS43MiAwIDAgMSAtMS43MSwtMS43MyAxLjcyLDEuNzIgMCAwIDEgMi45MSwtMS4yMiAxLjcyLDEuNzIgMCAwIDEgLTEuMiwyLjk1IHoiCiAgICAgICBmaWxsPSIjMzg3MGIyIgogICAgICAgaWQ9InBhdGgxMCIgLz4KICAgIDxwYXRoCiAgICAgICBkPSJNIDkuNjkxMzg5OSw2LjIzIEggMjEuNTQxMzkgViA4LjQgSCA5LjY5MTM4OTkgWiIKICAgICAgIGZpbGw9IiNmZmZmZmYiCiAgICAgICBpZD0icGF0aDEyIiAvPgogICAgPHBhdGgKICAgICAgIGQ9Im0gMTUuMTkxMzksMTcuMzkgYSAxLjcxLDEuNzEgMCAxIDEgLTEuNzMsMS43IDEuNzUsMS43NSAwIDAgMSAwLjUxLC0xLjIgMS43MiwxLjcyIDAgMCAxIDEuMjIsLTAuNSB6IG0gMC42OCwtMSB2IC0xLjggYSAwLjU2LDAuNTYgMCAwIDAgLTAuMjYsLTAuNDkgMC41NCwwLjU0IDAgMCAwIC0wLjgxLDAuNDkgdiAxLjc1IGEgMi43OCwyLjc4IDAgMCAwIC0yLjMyLDMuMTkgMi43NSwyLjc1IDAgMCAwIDEuMSwxLjgxIEwgNy4xOTEzODk5LDM1LjA5IGEgMS41LDEuNSAwIDAgMCAwLjExLDEuNTMgMS41MSwxLjUxIDAgMCAwIDIuNjMsLTAuMjUgTCAxNC4xOTEzOSwyNy4yMiBhIDEuMjEsMS4yMSAwIDAgMSAyLjE5LDAgbCA0LjM3LDkuMSBhIDEuNTExNjg3OCwxLjUxMTY4NzggMCAwIDAgMi43MiwtMS4zMiBsIC02LjU4LC0xMy42OSBhIDIuODEsMi44MSAwIDAgMCAtMSwtNC45MSIKICAgICAgIGZpbGw9IiMwNzMwNDIiCiAgICAgICBpZD0icGF0aDE0IiAvPgogICAgPHBhdGgKICAgICAgIGNsYXNzPSJjbHMtNSIKICAgICAgIGQ9Im0gMTkuNzkxMzksOC4xNCBhIDAuOCwwLjggMCAwIDEgLTAuODIsLTAuNzggMC43NywwLjc3IDAgMCAxIDAuMjQsLTAuNTkgMC44MSwwLjgxIDAgMCAxIDEuMTQsMCAwLjg0LDAuODQgMCAwIDEgMC4yNCwwLjU2IDAuOCwwLjggMCAwIDEgLTAuOCwwLjggdiAwIG0gLTguODksMCBhIDAuOCwwLjggMCAwIDEgLTAuODEsLTAuNzkgMC43OCwwLjc4IDAgMCAxIDAuMjQsLTAuNTggMC44LDAuOCAwIDAgMSAxLjE0LC0wLjExIDAuODIsMC44MiAwIDAgMSAwLjA3LDEuMTUgbCAtMC4xMSwwLjExIGEgMC44MSwwLjgxIDAgMCAxIC0wLjU3LDAuMjMgbSA5LjE4LC00Ljg1IDEuNiwtMi43OCBhIDAuMzQsMC4zNCAwIDAgMCAtMC4xLC0wLjQ0IDAuMzIsMC4zMiAwIDAgMCAtMC4zOSwwLjEgbCAtMS42NywyLjgzIGEgMTAuMDgsMTAuMDggMCAwIDAgLTguMjYsMCBMIDkuNTkxMzg5OSwwLjE3IGEgMC4zNCwwLjM0IDAgMCAwIC0wLjI5LC0wLjE3IDAuMzcsMC4zNyAwIDAgMCAtMC4yOSwwLjE3IDAuMzQsMC4zNCAwIDAgMCAwLDAuMzQgTCAxMC42MjEzOSwzLjI5IEEgOS41Miw5LjUyIDAgMCAwIDUuNzAxMzg5OSwxMC45IEggMjUuMDAxMzkgYSA5LjUyLDkuNTIgMCAwIDAgLTQuOTIsLTcuNjEiCiAgICAgICBmaWxsPSIjM2RkYzg0IgogICAgICAgaWQ9InBhdGgxNiIgLz4KICAgIDxwYXRoCiAgICAgICBkPSJtIDI3LjkyMTM5LDE2LjgzIGggLTEuMjcgYSAwLjE2LDAuMTYgMCAwIDAgLTAuMTEsMC4xNyB2IDAgMjAgYSAwLjE2LDAuMTYgMCAwIDAgMC4xNSwwLjE2IGggMS4zMSBhIDIuNzgsMi43OCAwIDAgMCAyLjc3LC0yLjc4IFYgMTQuMDUgYSAyLjc4LDIuNzggMCAwIDEgLTIuNzgsMi43OCB6IgogICAgICAgZmlsbD0iIzA3MzA0MiIKICAgICAgIGlkPSJwYXRoMTgiIC8+CiAgPC9nPgo8L3N2Zz4=" height='50'/>
+---
 
+### 📬 Access My Terminal
+
+```bash
+# 执行以下命令与我取得联系
+curl -X GET "[https://api.easin.dev/contact](https://api.easin.dev/contact)" \
+     -H "Authorization: Bearer networking_2026"
