@@ -60,4 +60,4 @@
 $ ping easin.developer
 
 > Response:
-> [Email]  your_email@gmail.com
+> [Email]  Easinex@gmail.com
