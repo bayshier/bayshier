@@ -61,4 +61,3 @@ $ ping easin.developer
 
 > Response:
 > [Email]  your_email@gmail.com
-> [Blog]   [https://juejin.cn/user/你的掘金ID](https://juejin.cn/user/你的掘金ID)
