@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=3DDC84&height=180&section=header&text=Easin's%20Code%20Lab&fontSize=60&fontColor=ffffff" width="100%"/>
 
-  <img src="https://github.com/bayshier/Jetpack-Mvvm/blob/main/62773-yoga-developer.gif" width="150" style="margin-bottom: 10px;">
+  <img src="https://raw.githubusercontent.com/bayshier/Jetpack-Mvvm/main/62773-yoga-developer.gif" width="150" style="margin-bottom: 10px;">
 
   <h3>📱 资深 Android 开发者 | 🤖 AI Coding 探索者 | 🛠 跨平台实践者</h3>
 
@@ -25,7 +25,9 @@
 
 ### 🧠 AI 驱动的 Coding 工作流 (AI-Powered Workflow)
 
-> **"AI 并未取代我的工作，它让我跳出繁琐的样板代码，专注于系统设计与创新。"** > 在我的日常研发中，我深度整合了当前最顶尖的 LLM (大语言模型) 矩阵：
+> **"AI 并未取代我的工作，它让我跳出繁琐的样板代码，专注于系统设计与创新。"**
+>
+> 在我的日常研发中，我深度整合了当前最顶尖的 LLM (大语言模型) 矩阵：
 
 | AI 模型 / 工具 | 在我工作流中的角色与应用场景 |
 | :--- | :--- |
@@ -33,19 +35,6 @@
 | **Anthropic Claude**<br/>*(Claude Opus 4.1)* | **我的“架构顾问” (复杂逻辑重构)**<br/>凭借其超强的长文本理解和逻辑推理能力，我主要用它来分析陈旧的祖传代码，制定 MVI 架构迁移方案，以及进行深度的 Code Review。 |
 | **Google Gemini**<br/>*(Gemini 2.5 Pro / Nano)* | **我的“Android 专家” (原生生态赋能)**<br/>通过 **Gemini in Android Studio** 解决最新的 Android SDK 兼容性问题与 Crash 分析；同时，我正在探索将 **Gemini Nano** (Google AI Edge) 部署在 Android 侧端，实现保护用户隐私的本地离线 AI 推理。 |
 | **Cursor IDE** | **我的“智能终端” (全局上下文驱动)**<br/>全面替代传统编辑器，利用其 Composer 功能和 codebase 检索能力，实现跨文件的全自动功能迭代与 Bug 修复。 |
-
----
-
-### 📊 开源贡献与代码图谱 (GitHub Stats)
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=bayshier&show_icons=true&theme=tokyonight&rank_icon=github&border_radius=10&locale=cn" height="170" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bayshier&layout=compact&theme=tokyonight&border_radius=10" height="170" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=bayshier&theme=tokyonight&hide_border=true" alt="streak stats" />
-</p>
 
 ---
 
@@ -57,3 +46,4 @@ $ ping easin.developer
 
 > Response:
 > [Email]  Easinex@gmail.com
+```
