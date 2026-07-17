@@ -1,13 +1,21 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=3DDC84&height=180&section=header&text=Easin's%20Code%20Lab&fontSize=60&fontColor=ffffff" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=3DDC84&height=180&section=header&text=Easin's%20Code%20Lab&fontSize=60&fontColor=ffffff&animation=fadeIn&stroke=2&strokeMode=login&strokeColor=3DDC84" width="100%"/>
 
-  <img src="https://raw.githubusercontent.com/bayshier/Jetpack-Mvvm/main/62773-yoga-developer.gif" width="150" style="margin-bottom: 10px;">
-
-  <h3>📱 资深 Android 开发者 | 🤖 AI Coding 探索者 | 🛠 跨平台实践者</h3>
+  <a href="https://readme-typing-svg.demolab.com/?lines=Android+Engineer;Kotlin+%E2%9C%A6+Compose+%E2%9C%A6+KMP;Material+3+Expressive;AI-Powered+Workflow&font=Fira+Code&weight=600&color=3DDC84&center=true&vCenter=true&width=560&height=60&duration=2500&pause=800">
+    <img src="https://readme-typing-svg.demolab.com/?lines=Android+Engineer;Kotlin+%E2%9C%A6+Compose+%E2%9C%A6+KMP;Material+3+Expressive;AI-Powered+Workflow&font=Fira+Code&weight=600&color=3DDC84&center=true&vCenter=true&width=560&height=60&duration=2500&pause=800" alt="Typing SVG" />
+  </a>
 
   <p>
     <i>“不再是单纯的代码编写者，而是与 AI 协同进化的应用架构师。”</i>
   </p>
+
+  <img src="https://skillicons.dev/icons?i=kotlin,android,compose,gradle,hilt,coroutines,room,git&perline=8" alt="Tech Stack" />
+
+  <br/>
+
+  <a href="mailto:Easinex@gmail.com"><img src="https://img.shields.io/badge/Email-Easinex@gmail.com-3DDC84?style=flat-square&logo=gmail&logoColor=white&labelColor=1a1a2e" alt="Email" /></a>
+  <img src="https://img.shields.io/badge/Focus-Android_%7C_KMP_%7C_AI-3DDC84?style=flat-square&labelColor=1a1a2e" alt="Focus" />
+  <img src="https://img.shields.io/badge/Stack-Compose_%7C_MVI_%7C_Hilt-3DDC84?style=flat-square&logoColor=white&labelColor=1a1a2e" alt="Stack" />
 </div>
 
 ---
@@ -65,6 +73,16 @@ Google 在《Guide to App Architecture》中真正推荐的是 **单向数据流
 | **MCP 协议** | **连接 AI 与工具链的桥梁** | Model Context Protocol 让 AI 能结构化地访问工具与上下文。它是让 Agent 真正"动手"而非"动嘴"的协议基础。 |
 
 **关于 AI Coding 的一个判断：** 决定资深开发者能否用好 AI 的，不是会用多少工具，而是**能否清晰地把意图与约束传达出去、并在 AI 产出后保持足够的批判性审查**。越是让 AI 生成代码，越要能读懂它、证伪它。
+
+---
+
+### 📊 开源贡献轨迹 (Contribution Graph)
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=bayshier&theme=tokyo-night&hide_border=true&area=true&color=3DDC84&line=3DDC84&point=ffffff" alt="Activity Graph" width="95%" />
+  <br/>
+  <img src="https://streak-stats.demolab.com/?user=bayshier&theme=tokyonight&hide_border=true&ring=3DDC84&fire=FF6B35&currStreakLabel=3DDC84&background=00000000" alt="Streak Stats" />
+</div>
 
 ---
 
