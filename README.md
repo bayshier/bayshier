@@ -4,22 +4,22 @@
   <table>
     <tr>
       <td align="center" width="33%">
-        <img src="./public/imgs/openai-logo.svg" width="28" alt="OpenAI" /><br/>
+        <img height="32" src="./public/imgs/openai-logo.svg" alt="OpenAI" /><br/>
         <sub><b>OpenAI</b></sub><br/>
         <sub>📅 2026.01 — 至今 · 7 个月</sub><br/>
-        <img src="https://img.shields.io/badge/订阅-20%C3%97%20Subscriber-10A37F?style=flat-square&labelColor=1a1a2e&color=10A37F" alt="OpenAI 20x Subscriber" />
+        <img src="https://img.shields.io/badge/20×-Subscriber-10A37F?style=flat-square&labelColor=1a1a2e&color=10A37F" alt="OpenAI 20x Subscriber" />
       </td>
       <td align="center" width="33%">
-        <img src="https://img.shields.io/badge/-D97757?style=flat-square&logo=claude&logoColor=white&labelColor=D97757" width="28" alt="Claude" /><br/>
+        <img height="32" src="https://cdn.simpleicons.org/claude/D97757" alt="Claude" /><br/>
         <sub><b>Claude Code</b></sub><br/>
         <sub>📅 2026.01 — 至今 · 7 个月</sub><br/>
-        <img src="https://img.shields.io/badge/订阅-Ultra%20Year-D97757?style=flat-square&labelColor=1a1a2e&color=D97757" alt="Claude Ultra Year" />
+        <img src="https://img.shields.io/badge/Ultra-Year-D97757?style=flat-square&labelColor=1a1a2e&color=D97757" alt="Claude Ultra Year" />
       </td>
       <td align="center" width="33%">
-        <img src="https://img.shields.io/badge/-000000?style=flat-square&logo=cursor&logoColor=white&labelColor=000000" width="28" alt="Cursor" /><br/>
+        <img height="32" src="https://cdn.simpleicons.org/cursor/000000" alt="Cursor" /><br/>
         <sub><b>Cursor</b></sub><br/>
         <sub>📅 2025.07 — 至今 · 1 年 1 个月</sub><br/>
-        <img src="https://img.shields.io/badge/订阅-Pro%20Annual-000000?style=flat-square&labelColor=1a1a2e&logoColor=white&color=555555" alt="Cursor Pro Annual" />
+        <img src="https://img.shields.io/badge/Pro-Annual-555555?style=flat-square&labelColor=1a1a2e&logoColor=white&color=555555" alt="Cursor Pro Annual" />
       </td>
     </tr>
   </table>
