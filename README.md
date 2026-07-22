@@ -1,6 +1,9 @@
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=3DDC84&height=180&section=header&text=Easin's%20Code%20Lab&fontSize=60&fontColor=ffffff&animation=fadeIn&stroke=2&strokeMode=login&strokeColor=3DDC84" width="100%"/>
 
+  <!-- 主图：把图片放到 public/imgs/ 下，然后把下面 src 换成 ./public/imgs/你的文件名.png -->
+  <img src="https://img.shields.io/badge/%E2%96%88%E2%96%88%20%E4%B8%BB%E5%9B%BE%E5%8D%A0%E4%BD%8D-替换为你的图片-1a1a2e?style=for-the-badge&labelColor=1a1a2e&color=3DDC84" alt="主图占位 — 在 README 顶部放上你的图片" />
+
   <a href="https://readme-typing-svg.demolab.com/?lines=Android+Engineer;Kotlin+%E2%9C%A6+Compose+%E2%9C%A6+KMP;Material+3+Expressive;AI-Powered+Workflow&font=Fira+Code&weight=600&color=3DDC84&center=true&vCenter=true&width=560&height=60&duration=2500&pause=800">
     <img src="https://readme-typing-svg.demolab.com/?lines=Android+Engineer;Kotlin+%E2%9C%A6+Compose+%E2%9C%A6+KMP;Material+3+Expressive;AI-Powered+Workflow&font=Fira+Code&weight=600&color=3DDC84&center=true&vCenter=true&width=560&height=60&duration=2500&pause=800" alt="Typing SVG" />
   </a>
