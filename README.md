@@ -4,10 +4,10 @@
   <table>
     <tr>
       <td align="center" width="33%">
-        <img height="32" src="./public/imgs/openai-logo.svg" alt="OpenAI" /><br/>
-        <sub><b>OpenAI</b></sub><br/>
+        <img height="32" src="./public/imgs/openai-logo.svg" alt="ChatGPT" /><br/>
+        <sub><b>ChatGPT</b></sub><br/>
         <sub>📅 2026.01 — 至今 · 7 个月</sub><br/>
-        <img src="https://img.shields.io/badge/20×-Subscriber-10A37F?style=flat-square&labelColor=1a1a2e&color=10A37F" alt="OpenAI 20x Subscriber" />
+        <img src="https://img.shields.io/badge/20×-Subscriber-10A37F?style=flat-square&labelColor=1a1a2e&color=10A37F" alt="ChatGPT 20x Subscriber" />
       </td>
       <td align="center" width="33%">
         <img height="32" src="https://cdn.simpleicons.org/claude/D97757" alt="Claude" /><br/>
