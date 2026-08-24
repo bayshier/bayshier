@@ -6,19 +6,19 @@
       <td align="center" width="33%">
         <img height="32" src="./public/imgs/openai-logo.svg" alt="ChatGPT" /><br/>
         <sub><b>ChatGPT</b></sub><br/>
-        <sub>📅 2026.01 — 至今 · 7 个月</sub><br/>
+        <sub>📅 长期订阅</sub><br/>
         <img src="https://img.shields.io/badge/20×-Subscriber-10A37F?style=flat-square&labelColor=1a1a2e&color=10A37F" alt="ChatGPT 20x Subscriber" />
       </td>
       <td align="center" width="33%">
         <img height="32" src="https://cdn.simpleicons.org/claude/D97757" alt="Claude" /><br/>
         <sub><b>Claude Code</b></sub><br/>
-        <sub>📅 2026.01 — 至今 · 7 个月</sub><br/>
+        <sub>📅 长期订阅</sub><br/>
         <img src="https://img.shields.io/badge/Ultra-Year-D97757?style=flat-square&labelColor=1a1a2e&color=D97757" alt="Claude Ultra Year" />
       </td>
       <td align="center" width="33%">
         <img height="32" src="https://cdn.simpleicons.org/cursor/000000" alt="Cursor" /><br/>
         <sub><b>Cursor</b></sub><br/>
-        <sub>📅 2025.07 — 至今 · 1 年 1 个月</sub><br/>
+        <sub>📅 长期订阅</sub><br/>
         <img src="https://img.shields.io/badge/Pro-Annual-555555?style=flat-square&labelColor=1a1a2e&logoColor=white&color=555555" alt="Cursor Pro Annual" />
       </td>
     </tr>
@@ -79,6 +79,7 @@ Google 在《Guide to App Architecture》中真正推荐的是 **单向数据流
 - **K2 编译器：** Kotlin 2.x 的 K2 编译器已稳定，带来的不只是编译提速，更是前端重写后更可预测的增量编译行为。
 - **构建即代码：** Version Catalogs (TOML) 统一依赖、Convention Plugins 收敛构建约定。模块化的目标不是把工程拆得多碎，而是让每个模块的构建配置**可被复用、可被推导**。
 - **性能可度量：** Baseline Profiles + Macrobenchmark，让启动优化从"感觉变快了"变成"基准曲线下降了 X ms"。
+- **Agent 工程化 (Harness Engineering)：** Agent 运行时 = OODA 循环 + 结构化事件 + token 预算护栏（多 Agent 的 15× token 代价必须是一等旋钮）；不受信代码走 OS 级沙箱接缝（Seatbelt/bwrap）且 fail-closed——沙箱不可用时唯一正确答案是拒绝执行；技能自进化用 **git 版本化**，进化可审计、可回滚，不是破坏。
 
 ---
 
@@ -93,9 +94,28 @@ Google 在《Guide to App Architecture》中真正推荐的是 **单向数据流
 | **Claude Code**<br/>*(Anthropic)* | **深度推理型协作者** | 面对祖传代码时，让它先通读整个模块、输出"现状—痛点—迁移方案—影响面"的结构化分析，再逐行 Review 决定取舍。它擅长长上下文与逻辑推演，但**架构判断与最终合并权始终在工程师手中**。 |
 | **Google Gemini**<br/>*(Gemini 2.5 Pro)* | **Android 生态向导** | 解决 SDK 兼容性、Crash 归因这类"需要贴近官方生态"的问题。同时关注 **Google AI Edge**——把生成式模型部署到端侧、实现离线与隐私优先的推理，是端侧 AI 的务实路径。 |
 | **OpenAI Codex**<br/>*(GitHub Copilot)* | **高频行级生成** | IDE 内的毫秒级补全、批量生成 data class 与样板代码。价值在于**把人从重复中解放**，但产出的每一段都需要理解后才会采纳。 |
-| **MCP 协议** | **连接 AI 与工具链的桥梁** | Model Context Protocol 让 AI 能结构化地访问工具与上下文。它是让 Agent 真正"动手"而非"动嘴"的协议基础。 |
+| **MCP 协议** | **自研工具链的协议底座** | 用 Kotlin + 官方 MCP Java SDK 自研了 4 个 MCP 服务器（行情/K线视觉/交易回放/设备自动化），全部 stdio 端到端验证。踩坑记录：ImageContent 构造器参数序、腾讯行情 GBK 双格式、SDK stdio 并发丢响应——都沉淀成了 [agent skills](https://github.com/bayshier/android-agent-skills)。 |
 
 **关于 AI Coding 的一个判断：** 决定资深开发者能否用好 AI 的，不是会用多少工具，而是**能否清晰地把意图与约束传达出去、并在 AI 产出后保持足够的批判性审查**。越是让 AI 生成代码，越要能读懂它、证伪它。
+
+---
+
+### 🧰 开源矩阵 (Open Source Matrix)
+
+AI Agent 工具链以 Kotlin 构建，每层独立可用、串成系统：
+
+| 层 | 仓库 | 一句话 |
+|---|---|---|
+| 数据 | [kline-mcp](https://github.com/bayshier/kline-mcp) | A股 K线与指标 MCP——双源容灾 + 本地 MACD/KDJ/BOLL/RSI + 规则化趋势解读 |
+| 视觉 | [kline-vision](https://github.com/bayshier/kline-vision) | K线图渲染 → 视觉大模型形态识别（3/3 盲测验证，标签由构造保证的评测集） |
+| 规则 | [t1-replay](https://github.com/bayshier/t1-replay) | A股 T+1 纸面交易回放引擎——训练 Agent 也要守法：涨跌停/整手/费用全模型 |
+| 设备 | [android-mcp](https://github.com/bayshier/android-mcp) | Android 设备自动化——截图以 ImageContent 真图返回，Agent 看得见屏幕 |
+| 运行时 | [harness-engineering](https://github.com/bayshier/harness-engineering) | Agent Harness 五组件参考实现：OODA+预算护栏、fail-closed 沙箱、**git 版本化的自进化 Skill** |
+| 清单 | [awesome-agent-harnesses](https://github.com/bayshier/awesome-agent-harnesses) | Harness 生态全景图（三语，star 实查，附田野实测笔记） |
+| 技能 | [android-agent-skills](https://github.com/bayshier/android-agent-skills) | 从真实事故蒸馏的 5 个 Agent 技能（AGP9 迁移/MCP SDK 指南/崩溃分诊…） |
+| 蓝图 | [Compose-MVI-KLine](https://github.com/bayshier/Compose-MVI-KLine) | 手绘 Canvas K线的 2026 Android 工程蓝图 |
+
+> 观点：头部 harness 全是 TS/Python/Rust/Go，**Kotlin 在 Agent 基建层是空白**——空白即机会。
 
 ---
 
