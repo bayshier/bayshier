@@ -92,7 +92,6 @@ Google 在《Guide to App Architecture》中真正推荐的是 **单向数据流
 | 工具 | 在工作流中的定位 | 如何使用 |
 | :--- | :--- | :--- |
 | **Claude Code**<br/>*(Anthropic)* | **深度推理型协作者** | 面对祖传代码时，让它先通读整个模块、输出"现状—痛点—迁移方案—影响面"的结构化分析，再逐行 Review 决定取舍。它擅长长上下文与逻辑推演，但**架构判断与最终合并权始终在工程师手中**。 |
-| **Google Gemini**<br/>*(Gemini 2.5 Pro)* | **Android 生态向导** | 解决 SDK 兼容性、Crash 归因这类"需要贴近官方生态"的问题。同时关注 **Google AI Edge**——把生成式模型部署到端侧、实现离线与隐私优先的推理，是端侧 AI 的务实路径。 |
 | **OpenAI Codex**<br/>*(GitHub Copilot)* | **高频行级生成** | IDE 内的毫秒级补全、批量生成 data class 与样板代码。价值在于**把人从重复中解放**，但产出的每一段都需要理解后才会采纳。 |
 | **MCP 协议** | **自研工具链的协议底座** | 用 Kotlin + 官方 MCP Java SDK 自研了 4 个 MCP 服务器（行情/K线视觉/交易回放/设备自动化），全部 stdio 端到端验证。踩坑记录：ImageContent 构造器参数序、腾讯行情 GBK 双格式、SDK stdio 并发丢响应——都沉淀成了 [agent skills](https://github.com/bayshier/android-agent-skills)。 |
 
