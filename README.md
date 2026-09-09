@@ -121,6 +121,14 @@ AI Agent 工具链以 Kotlin 构建，每层独立可用、串成系统：
 ### 📊 开源贡献轨迹 (Contribution Graph)
 
 <div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bayshier/bayshier/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bayshier/bayshier/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/bayshier/bayshier/output/github-contribution-grid-snake.svg" width="100%" />
+  </picture>
+</div>
+
+<div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=bayshier&theme=tokyo-night&hide_border=true&area=true&color=3DDC84&line=3DDC84&point=ffffff" alt="Activity Graph" width="95%" />
   <br/>
   <img src="https://streak-stats.demolab.com/?user=bayshier&theme=tokyonight&hide_border=true&ring=3DDC84&fire=FF6B35&currStreakLabel=3DDC84&background=00000000" alt="Streak Stats" />
