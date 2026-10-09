@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="34" viewBox="0 0 880 34">
+  <!-- animal-island-ui 风格分隔条：沙色虚线 + 岛屿叶 + 两朵小花（原创绘制） -->
+  <line x1="30" y1="17" x2="360" y2="17" stroke="#dcd8d1" stroke-width="3" stroke-linecap="round" stroke-dasharray="2 12"/>
+  <line x1="520" y1="17" x2="850" y2="17" stroke="#dcd8d1" stroke-width="3" stroke-linecap="round" stroke-dasharray="2 12"/>
+
+  <!-- 中央岛屿叶：动森主青绿双叶 + 棕色叶脉 -->
+  <g transform="translate(440,17)">
+    <path d="M -2 4 C -20 2 -26 -10 -24 -14 C -12 -16 -2 -8 0 2 Z" fill="#19c8b9"/>
+    <path d="M 2 4 C 20 2 26 -10 24 -14 C 12 -16 2 -8 0 2 Z" fill="#3dd4c6"/>
+    <line x1="0" y1="7" x2="0" y2="-10" stroke="#794f27" stroke-width="1.6" stroke-linecap="round"/>
+  </g>
+
+  <!-- 左侧小花：动森警示黄五瓣 + 棕色花心 -->
+  <g transform="translate(392,15)">
+    <circle cx="0" cy="-8.5" r="4.5" fill="#f5c31c"/>
+    <circle cx="8.08" cy="-2.63" r="4.5" fill="#f5c31c"/>
+    <circle cx="5.0" cy="6.88" r="4.5" fill="#f5c31c"/>
+    <circle cx="-5.0" cy="6.88" r="4.5" fill="#f5c31c"/>
+    <circle cx="-8.08" cy="-2.63" r="4.5" fill="#f5c31c"/>
+    <circle cx="0" cy="0" r="3" fill="#794f27"/>
+  </g>
+
+  <!-- 右侧小花 -->
+  <g transform="translate(488,15)">
+    <circle cx="0" cy="-8.5" r="4.5" fill="#f5c31c"/>
+    <circle cx="8.08" cy="-2.63" r="4.5" fill="#f5c31c"/>
+    <circle cx="5.0" cy="6.88" r="4.5" fill="#f5c31c"/>
+    <circle cx="-5.0" cy="6.88" r="4.5" fill="#f5c31c"/>
+    <circle cx="-8.08" cy="-2.63" r="4.5" fill="#f5c31c"/>
+    <circle cx="0" cy="0" r="3" fill="#794f27"/>
+  </g>
+</svg>

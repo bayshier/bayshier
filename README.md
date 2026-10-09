@@ -1,31 +1,31 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=3DDC84&height=180&section=header&text=Easin's%20Code%20Lab&fontSize=60&fontColor=ffffff&animation=fadeIn&stroke=2&strokeMode=login&strokeColor=3DDC84" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3DD4C6,100:19C8B9&height=180&section=header&text=Easin's%20Code%20Lab&fontSize=60&fontColor=ffffff&animation=fadeIn&desc=Cozy%20Coding%20Island%20%C2%B7%20%E4%BB%A3%E7%A0%81%E5%B0%8F%E5%B2%9B&descSize=16&descAlignY=72" width="100%"/>
 
   <table>
     <tr>
       <td align="center" width="33%">
         <img height="32" src="./public/imgs/openai-logo.svg" alt="ChatGPT" /><br/>
         <sub><b>ChatGPT</b></sub><br/>
-        <sub>📅 长期订阅</sub><br/>
-        <img src="https://img.shields.io/badge/20×-Subscriber-10A37F?style=flat-square&labelColor=1a1a2e&color=10A37F" alt="ChatGPT 20x Subscriber" />
+        <sub>🏝️ 长期订阅</sub><br/>
+        <img src="https://img.shields.io/badge/20×-Subscriber-10A37F?style=flat-square&labelColor=F0E8D8&color=10A37F" alt="ChatGPT 20x Subscriber" />
       </td>
       <td align="center" width="33%">
         <img height="32" src="https://cdn.simpleicons.org/claude/D97757" alt="Claude" /><br/>
         <sub><b>Claude Code</b></sub><br/>
-        <sub>📅 长期订阅</sub><br/>
-        <img src="https://img.shields.io/badge/Ultra-Year-D97757?style=flat-square&labelColor=1a1a2e&color=D97757" alt="Claude Ultra Year" />
+        <sub>🏝️ 长期订阅</sub><br/>
+        <img src="https://img.shields.io/badge/Ultra-Year-D97757?style=flat-square&labelColor=F0E8D8&color=D97757" alt="Claude Ultra Year" />
       </td>
       <td align="center" width="33%">
         <img height="32" src="https://cdn.simpleicons.org/cursor/000000" alt="Cursor" /><br/>
         <sub><b>Cursor</b></sub><br/>
-        <sub>📅 长期订阅</sub><br/>
-        <img src="https://img.shields.io/badge/Pro-Annual-555555?style=flat-square&labelColor=1a1a2e&logoColor=white&color=555555" alt="Cursor Pro Annual" />
+        <sub>🏝️ 长期订阅</sub><br/>
+        <img src="https://img.shields.io/badge/Pro-Annual-555555?style=flat-square&labelColor=F0E8D8&logoColor=white&color=555555" alt="Cursor Pro Annual" />
       </td>
     </tr>
   </table>
 
-  <a href="https://readme-typing-svg.demolab.com/?lines=Android+Engineer;Kotlin+%E2%9C%A6+Compose+%E2%9C%A6+KMP;Material+3+Expressive;AI-Powered+Workflow&font=Fira+Code&weight=600&color=3DDC84&center=true&vCenter=true&width=560&height=60&duration=2500&pause=800">
-    <img src="https://readme-typing-svg.demolab.com/?lines=Android+Engineer;Kotlin+%E2%9C%A6+Compose+%E2%9C%A6+KMP;Material+3+Expressive;AI-Powered+Workflow&font=Fira+Code&weight=600&color=3DDC84&center=true&vCenter=true&width=560&height=60&duration=2500&pause=800" alt="Typing SVG" />
+  <a href="https://readme-typing-svg.demolab.com/?lines=Android+Engineer;Kotlin+%E2%9C%A6+Compose+%E2%9C%A6+KMP;Material+3+Expressive;AI-Powered+Workflow&font=Nunito&weight=700&color=19C8B9&center=true&vCenter=true&width=560&height=60&duration=2500&pause=800">
+    <img src="https://readme-typing-svg.demolab.com/?lines=Android+Engineer;Kotlin+%E2%9C%A6+Compose+%E2%9C%A6+KMP;Material+3+Expressive;AI-Powered+Workflow&font=Nunito&weight=700&color=19C8B9&center=true&vCenter=true&width=560&height=60&duration=2500&pause=800" alt="Typing SVG" />
   </a>
 
   <p>
@@ -36,14 +36,14 @@
 
   <br/>
 
-  <a href="mailto:Easinex@gmail.com"><img src="https://img.shields.io/badge/Email-Easinex@gmail.com-3DDC84?style=flat-square&logo=gmail&logoColor=white&labelColor=1a1a2e" alt="Email" /></a>
-  <img src="https://img.shields.io/badge/Focus-Android_%7C_KMP_%7C_AI-3DDC84?style=flat-square&labelColor=1a1a2e" alt="Focus" />
-  <img src="https://img.shields.io/badge/Stack-Compose_%7C_MVI_%7C_Hilt-3DDC84?style=flat-square&logoColor=white&labelColor=1a1a2e" alt="Stack" />
+  <a href="mailto:Easinex@gmail.com"><img src="https://img.shields.io/badge/Email-Easinex@gmail.com-19C8B9?style=flat-square&logo=gmail&logoColor=white&labelColor=F0E8D8" alt="Email" /></a>
+  <img src="https://img.shields.io/badge/Focus-Android_%7C_KMP_%7C_AI-19C8B9?style=flat-square&labelColor=F0E8D8" alt="Focus" />
+  <img src="https://img.shields.io/badge/Stack-Compose_%7C_MVI_%7C_Hilt-19C8B9?style=flat-square&logoColor=white&labelColor=F0E8D8" alt="Stack" />
 </div>
 
----
+<p align="center"><img src="./public/imgs/island-divider.svg" width="440" alt="divider"/></p>
 
-### 💻 现代 Android 实践 (Modern Android Development)
+### 🌱 现代 Android 实践 (Modern Android Development)
 
 技术选型的重点不在于"追新"，而在于看清每一项变更背后的工程动机——它解决了什么、又把复杂度转移到了哪里。
 
@@ -81,7 +81,7 @@ Google 在《Guide to App Architecture》中真正推荐的是 **单向数据流
 - **性能可度量：** Baseline Profiles + Macrobenchmark，让启动优化从"感觉变快了"变成"基准曲线下降了 X ms"。
 - **Agent 工程化 (Harness Engineering)：** Agent 运行时 = OODA 循环 + 结构化事件 + token 预算护栏（多 Agent 的 15× token 代价必须是一等旋钮）；不受信代码走 OS 级沙箱接缝（Seatbelt/bwrap）且 fail-closed——沙箱不可用时唯一正确答案是拒绝执行；技能自进化用 **git 版本化**，进化可审计、可回滚，不是破坏。
 
----
+<p align="center"><img src="./public/imgs/island-divider.svg" width="440" alt="divider"/></p>
 
 ### 🧠 AI 驱动的工作流 (AI-Powered Workflow)
 
@@ -97,9 +97,9 @@ Google 在《Guide to App Architecture》中真正推荐的是 **单向数据流
 
 **关于 AI Coding 的一个判断：** 决定资深开发者能否用好 AI 的，不是会用多少工具，而是**能否清晰地把意图与约束传达出去、并在 AI 产出后保持足够的批判性审查**。越是让 AI 生成代码，越要能读懂它、证伪它。
 
----
+<p align="center"><img src="./public/imgs/island-divider.svg" width="440" alt="divider"/></p>
 
-### 🧰 开源矩阵 (Open Source Matrix)
+### 🧺 开源矩阵 (Open Source Matrix)
 
 AI Agent 工具链以 Kotlin 构建，每层独立可用、串成系统：
 
@@ -116,9 +116,9 @@ AI Agent 工具链以 Kotlin 构建，每层独立可用、串成系统：
 
 > 观点：头部 harness 全是 TS/Python/Rust/Go，**Kotlin 在 Agent 基建层是空白**——空白即机会。
 
----
+<p align="center"><img src="./public/imgs/island-divider.svg" width="440" alt="divider"/></p>
 
-### 📊 开源贡献轨迹 (Contribution Graph)
+### 🗺️ 开源贡献轨迹 (Contribution Graph)
 
 <div align="center">
   <picture>
@@ -129,17 +129,15 @@ AI Agent 工具链以 Kotlin 构建，每层独立可用、串成系统：
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=bayshier&theme=tokyo-night&hide_border=true&area=true&color=3DDC84&line=3DDC84&point=ffffff" alt="Activity Graph" width="95%" />
-  <br/>
-  <img src="https://streak-stats.demolab.com/?user=bayshier&theme=tokyonight&hide_border=true&ring=3DDC84&fire=FF6B35&currStreakLabel=3DDC84&background=00000000" alt="Streak Stats" />
+  <img src="https://streak-stats.demolab.com/?user=bayshier&background=radius,F8F8F0,16&border=DCD8D1,1&ring=19C8B9&fire=F5C31C&currStreakNum=794F27&currStreakLabel=19C8B9&sideNums=794F27&sideLabels=9F927D&dates=C4B89E" alt="Streak Stats" />
 </div>
 
----
+<p align="center"><img src="./public/imgs/island-divider.svg" width="440" alt="divider"/></p>
 
-### 📫 获取连接 (Initialize Connection)
+### 📮 获取连接 (Initialize Connection)
 
 ```bash
-# 随时欢迎技术交流或探讨 AI 工具的最新玩法
+# 随时欢迎技术交流或探讨 AI 工具的最新玩法 🌴
 $ ping easin.developer
 
 > Response:
