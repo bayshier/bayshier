@@ -28,10 +28,6 @@
     <img src="https://readme-typing-svg.demolab.com/?lines=Android+Engineer;Kotlin+%E2%9C%A6+Compose+%E2%9C%A6+KMP;Material+3+Expressive;AI-Powered+Workflow&font=Nunito&weight=700&color=19C8B9&center=true&vCenter=true&width=560&height=60&duration=2500&pause=800" alt="Typing SVG" />
   </a>
 
-  <p>
-    <i>“不再是单纯的代码编写者，而是与 AI 协同进化的应用架构师。”</i>
-  </p>
-
   <img src="https://skillicons.dev/icons?i=kotlin,android,compose,gradle,hilt,coroutines,room,git&perline=8" alt="Tech Stack" />
 
   <br/>
@@ -48,65 +44,9 @@
 
 <p align="center"><img src="./public/imgs/island-divider.svg" width="440" alt="divider"/></p>
 
-### 🌱 现代 Android 实践 (Modern Android Development)
-
-技术选型的重点不在于"追新"，而在于看清每一项变更背后的工程动机——它解决了什么、又把复杂度转移到了哪里。
-
-#### 🎨 UI · Jetpack Compose & Material 3 Expressive
-
-全程以 Compose 声明式 UI 为基准，但更值得关注的是 **Material 3 Expressive**（M3 1.4+）带来的范式转变：
-
-- **动画的主题化：** `MotionScheme` 把"动效"提升为一等公民——就像 `ColorScheme` 之于颜色。动画不再散落在各处手搓 `tween`，而是可被主题统一编排、可切换。宜用它来收敛全应用的动效一致性。
-- **新的组合式组件：** `FloatingToolbar`、`ButtonGroup`、`SplitButton`、`WideNavigationRail` ——这些不是简单的 UI 控件，而是对"上下文操作"和"大屏/折叠屏导航"的官方回答。折叠屏适配中应优先评估它们，而非自行造轮子。
-- **重组与性能：** 审视 Compose 代码的粒度，应是"哪些状态读取会导致重组、范围多大"，而非泛泛地"用 remember 优化"。
-
-> 对应真实变更：Material Icons 体系在 1.4 起被移除，迁移至 Material Symbols——这类"看似只是换图标"的改动，背后是图标系统的可变字体化，主动跟进才能避免被动踩坑。
-
-#### 🏗 架构 · UDF 与分层 (不是教条的 MVI)
-
-Google 在《Guide to App Architecture》中真正推荐的是 **单向数据流 (UDF) + 分层架构 (UI / Domain / Data)**，而非某个特定缩写。实践应建立在这个本质上：
-
-- **状态是单向流动的：** UI 事件 → Intent → ViewModel 归约 → 不可变 UiState → UI 渲染。坚持 `UiState` 的不可变与单一数据源，因为它让"状态从哪来"这个问题永远有确定答案。
-- **Domain 层按需而非教条：** 不必为了"干净"而强行套用 UseCase。当多个 ViewModel 复用同一块业务逻辑、或需要把业务规则与数据层解耦时，Domain 层才显现价值——它应服务于"复用与可测试性"，而不是架构图的对称性。
-- **参考但不盲从 NiA：** Google 的 [Now in Android](https://github.com/android/nowinandroid) 是绝佳的参考实现，但更应关心它"为什么这样切模块"，而不是照搬它的目录结构。
-
-#### ⚙️ 平台演进 · 把系统变更当作架构契机
-
-跟踪 Android 平台的**行为变更**远多于"新特性"，因为前者才决定线上稳定性：
-
-- **Android 15 · 16KB page size：** 要求所有 NDK 依赖重新编译对齐。对纯 Kotlin 应用影响有限，但它把"原生库的内存对齐"这件过去被忽略的事推到了台前——宜将其纳入 CI 的合规检查。
-- **Predictive Back（预测式返回）：** 返回手势从"黑盒"变成可预测动画，但代价是必须放弃框架层的旧转场、改用 `androidx` 转场与 Navigation/Fragment 管理的返回栈。把它当作一次理清导航状态机的机会。
-- **min-target 提升至 24、Edge-to-edge：** 这些"强制项"宜在升级窗口期一次性消化，而非逐版本打补丁。
-
-#### 🚀 跨平台与工程化 (KMP · Build · Performance)
-
-- **KMP 的务实边界：** 拥抱 Kotlin Multiplatform 共享网络/数据/核心逻辑，但对 **Compose Multiplatform 共享 UI** 保持审慎——它是否适合，取决于团队是否能接受 UI 层的妥协。默认策略应是"逻辑下沉、UI 各端原生"。
-- **K2 编译器：** Kotlin 2.x 的 K2 编译器已稳定，带来的不只是编译提速，更是前端重写后更可预测的增量编译行为。
-- **构建即代码：** Version Catalogs (TOML) 统一依赖、Convention Plugins 收敛构建约定。模块化的目标不是把工程拆得多碎，而是让每个模块的构建配置**可被复用、可被推导**。
-- **性能可度量：** Baseline Profiles + Macrobenchmark，让启动优化从"感觉变快了"变成"基准曲线下降了 X ms"。
-- **Agent 工程化 (Harness Engineering)：** Agent 运行时 = OODA 循环 + 结构化事件 + token 预算护栏（多 Agent 的 15× token 代价必须是一等旋钮）；不受信代码走 OS 级沙箱接缝（Seatbelt/bwrap）且 fail-closed——沙箱不可用时唯一正确答案是拒绝执行；技能自进化用 **git 版本化**，进化可审计、可回滚，不是破坏。
-
-<p align="center"><img src="./public/imgs/island-divider.svg" width="440" alt="divider"/></p>
-
-### 🧠 AI 驱动的工作流 (AI-Powered Workflow)
-
-> **"AI 并未取代开发工作，它让人跳出繁琐的样板代码，专注于系统设计与创新。"**
->
-> AI 工具不是"更聪明的补全"，而是一个**需要被正确调度的协作者**。关键在于：把什么交给它、把什么牢牢握在自己手里。
-
-| 工具 | 在工作流中的定位 | 如何使用 |
-| :--- | :--- | :--- |
-| **Claude Code**<br/>*(Anthropic)* | **深度推理型协作者** | 面对祖传代码时，让它先通读整个模块、输出"现状—痛点—迁移方案—影响面"的结构化分析，再逐行 Review 决定取舍。它擅长长上下文与逻辑推演，但**架构判断与最终合并权始终在工程师手中**。 |
-| **OpenAI Codex**<br/>*(GitHub Copilot)* | **高频行级生成** | IDE 内的毫秒级补全、批量生成 data class 与样板代码。价值在于**把人从重复中解放**，但产出的每一段都需要理解后才会采纳。 |
-| **MCP 协议** | **自研工具链的协议底座** | 用 Kotlin + 官方 MCP Java SDK 自研了 4 个 MCP 服务器（行情/K线视觉/交易回放/设备自动化），全部 stdio 端到端验证。踩坑记录：ImageContent 构造器参数序、腾讯行情 GBK 双格式、SDK stdio 并发丢响应——都沉淀成了 [agent skills](https://github.com/bayshier/android-agent-skills)。 |
-
-**关于 AI Coding 的一个判断：** 决定资深开发者能否用好 AI 的，不是会用多少工具，而是**能否清晰地把意图与约束传达出去、并在 AI 产出后保持足够的批判性审查**。越是让 AI 生成代码，越要能读懂它、证伪它。
-
-<p align="center"><img src="./public/imgs/island-divider.svg" width="440" alt="divider"/></p>
-
 ### 🧺 开源矩阵 (Open Source Matrix)
 
-AI Agent 工具链以 Kotlin 构建，每层独立可用、串成系统——每个项目都配了一段动图演示：
+AI Agent 工具链以 Kotlin 构建，每层独立可用——每个项目都配了动图：
 
 <p align="center">
   <a href="https://github.com/bayshier/kline-mcp"><img src="./public/imgs/projects/kline-mcp.svg" width="100%" alt="kline-mcp · A股 K线与指标 MCP：双源容灾 + 本地指标计算"/></a>
@@ -140,11 +80,9 @@ AI Agent 工具链以 Kotlin 构建，每层独立可用、串成系统——每
   <a href="https://github.com/bayshier/Compose-MVI-KLine"><img src="./public/imgs/projects/Compose-MVI-KLine.svg" width="100%" alt="Compose-MVI-KLine · 手绘 Canvas K线的 2026 Android 工程蓝图"/></a>
 </p>
 
-> 观点：头部 harness 全是 TS/Python/Rust/Go，**Kotlin 在 Agent 基建层是空白**——空白即机会。
-
 <p align="center"><img src="./public/imgs/island-divider.svg" width="440" alt="divider"/></p>
 
-### 🗺️ 开源贡献轨迹 (Contribution Graph)
+### 🗺️ 贡献轨迹 (Contribution Graph)
 
 <div align="center">
   <picture>
@@ -160,17 +98,8 @@ AI Agent 工具链以 Kotlin 构建，每层独立可用、串成系统——每
 
 <p align="center"><img src="./public/imgs/island-divider.svg" width="440" alt="divider"/></p>
 
-### 📮 获取连接 (Initialize Connection)
-
-```bash
-# 随时欢迎技术交流或探讨 AI 工具的最新玩法 🌴
-$ ping easin.developer
-
-> Response:
-> [Email]  Easinex@gmail.com
-```
-
 <div align="center">
   <b>如果这些项目帮到了你，一颗 <a href="https://github.com/bayshier">star</a> 就是最大的鼓励，谢谢你来过 🌟</b><br/>
-  <i>If any of these help you, a star means a lot. Thanks for stopping by.</i>
+  <i>If any of these help you, a star means a lot. Thanks for stopping by.</i><br/>
+  <sub>📮 Easinex@gmail.com</sub>
 </div>
