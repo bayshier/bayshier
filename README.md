@@ -41,6 +41,11 @@
   <img src="https://img.shields.io/badge/Stack-Compose_%7C_MVI_%7C_Hilt-19C8B9?style=flat-square&logoColor=white&labelColor=F0E8D8" alt="Stack" />
 </div>
 
+<p align="center">
+  <b>程序员，致力于分享有趣又有用的开源项目，希望每个人都能用 AI 得到更好的结果。</b><br/>
+  <i>A programmer sharing fun &amp; useful open-source projects — so everyone can get better results with AI.</i>
+</p>
+
 <p align="center"><img src="./public/imgs/island-divider.svg" width="440" alt="divider"/></p>
 
 ### 🌱 现代 Android 实践 (Modern Android Development)
@@ -101,18 +106,39 @@ Google 在《Guide to App Architecture》中真正推荐的是 **单向数据流
 
 ### 🧺 开源矩阵 (Open Source Matrix)
 
-AI Agent 工具链以 Kotlin 构建，每层独立可用、串成系统：
+AI Agent 工具链以 Kotlin 构建，每层独立可用、串成系统——每个项目都配了一段动图演示：
 
-| 层 | 仓库 | 一句话 |
-|---|---|---|
-| 数据 | [kline-mcp](https://github.com/bayshier/kline-mcp) | A股 K线与指标 MCP——双源容灾 + 本地 MACD/KDJ/BOLL/RSI + 规则化趋势解读 |
-| 视觉 | [kline-vision](https://github.com/bayshier/kline-vision) | K线图渲染 → 视觉大模型形态识别（3/3 盲测验证，标签由构造保证的评测集） |
-| 规则 | [t1-replay](https://github.com/bayshier/t1-replay) | A股 T+1 纸面交易回放引擎——训练 Agent 也要守法：涨跌停/整手/费用全模型 |
-| 设备 | [android-mcp](https://github.com/bayshier/android-mcp) | Android 设备自动化——截图以 ImageContent 真图返回，Agent 看得见屏幕 |
-| 运行时 | [harness-engineering](https://github.com/bayshier/harness-engineering) | Agent Harness 五组件参考实现：OODA+预算护栏、fail-closed 沙箱、**git 版本化的自进化 Skill** |
-| 清单 | [awesome-agent-harnesses](https://github.com/bayshier/awesome-agent-harnesses) | Harness 生态全景图（三语，star 实查，附田野实测笔记） |
-| 技能 | [android-agent-skills](https://github.com/bayshier/android-agent-skills) | 从真实事故蒸馏的 5 个 Agent 技能（AGP9 迁移/MCP SDK 指南/崩溃分诊…） |
-| 蓝图 | [Compose-MVI-KLine](https://github.com/bayshier/Compose-MVI-KLine) | 手绘 Canvas K线的 2026 Android 工程蓝图 |
+<p align="center">
+  <a href="https://github.com/bayshier/kline-mcp"><img src="./public/imgs/projects/kline-mcp.svg" width="100%" alt="kline-mcp · A股 K线与指标 MCP：双源容灾 + 本地指标计算"/></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/bayshier/kline-vision"><img src="./public/imgs/projects/kline-vision.svg" width="100%" alt="kline-vision · K线图渲染 → 视觉大模型形态识别"/></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/bayshier/t1-replay"><img src="./public/imgs/projects/t1-replay.svg" width="100%" alt="t1-replay · A股 T+1 纸面交易回放引擎"/></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/bayshier/android-mcp"><img src="./public/imgs/projects/android-mcp.svg" width="100%" alt="android-mcp · Android 设备自动化 MCP"/></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/bayshier/harness-engineering"><img src="./public/imgs/projects/harness-engineering.svg" width="100%" alt="harness-engineering · Agent Harness 五组件参考实现"/></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/bayshier/awesome-agent-harnesses"><img src="./public/imgs/projects/awesome-agent-harnesses.svg" width="100%" alt="awesome-agent-harnesses · Harness 生态全景图"/></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/bayshier/android-agent-skills"><img src="./public/imgs/projects/android-agent-skills.svg" width="100%" alt="android-agent-skills · 从真实事故蒸馏的 5 个 Agent 技能"/></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/bayshier/Compose-MVI-KLine"><img src="./public/imgs/projects/Compose-MVI-KLine.svg" width="100%" alt="Compose-MVI-KLine · 手绘 Canvas K线的 2026 Android 工程蓝图"/></a>
+</p>
 
 > 观点：头部 harness 全是 TS/Python/Rust/Go，**Kotlin 在 Agent 基建层是空白**——空白即机会。
 
@@ -143,3 +169,8 @@ $ ping easin.developer
 > Response:
 > [Email]  Easinex@gmail.com
 ```
+
+<div align="center">
+  <b>如果这些项目帮到了你，一颗 <a href="https://github.com/bayshier">star</a> 就是最大的鼓励，谢谢你来过 🌟</b><br/>
+  <i>If any of these help you, a star means a lot. Thanks for stopping by.</i>
+</div>

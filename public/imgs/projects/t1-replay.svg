@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="200" viewBox="0 0 880 200" font-family="Nunito,'Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif">
+  <rect x="1.5" y="1.5" width="877" height="197" rx="18" fill="#F8F8F0" stroke="#DCD8D1" stroke-width="2"/>
+  <rect x="34" y="26" width="80" height="26" rx="13" fill="#E6F9F6"/>
+  <text x="74" y="44" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1" fill="#19C8B9">03 · 规则</text>
+  <text x="34" y="90" font-size="26" font-weight="800" fill="#794F27">t1-replay</text>
+  <text x="34" y="122" font-size="13" fill="#794F27" opacity="0.92">A股 T+1 纸面交易回放 · 涨跌停 / 整手 / 费用全模型</text>
+  <text x="34" y="172" font-size="11" fill="#9F927D">github.com/bayshier/t1-replay</text>
+  <line x1="506" y1="24" x2="506" y2="176" stroke="#DCD8D1" stroke-width="2" stroke-dasharray="2 7"/>
+  <g transform="translate(524,18)">
+  <clipPath id="reel"><rect x="92" y="14" width="236" height="112"/></clipPath>
+  <circle cx="38" cy="58" r="22" fill="#E6F9F6" stroke="#19C8B9" stroke-width="2.5">
+    <animate attributeName="r" values="22;25;22" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+  <polygon points="32,47 32,69 52,58" fill="#19C8B9"/>
+  <rect x="16" y="94" width="46" height="22" rx="11" fill="#F0E8D8"/>
+  <text x="39" y="109" text-anchor="middle" font-size="11" font-weight="700" fill="#794F27">T+1</text>
+  <g clip-path="url(#reel)">
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;-340 0" dur="5s" repeatCount="indefinite"/>
+    <line x1="99" y1="78" x2="99" y2="118" stroke="#6FBA2C" stroke-width="2"/>
+    <rect x="92" y="78" width="14" height="34" rx="2" fill="#6FBA2C"/>
+    <line x1="133" y1="90" x2="133" y2="118" stroke="#E05A5A" stroke-width="2"/>
+    <rect x="126" y="90" width="14" height="22" rx="2" fill="#E05A5A"/>
+    <line x1="167" y1="68" x2="167" y2="118" stroke="#E05A5A" stroke-width="2"/>
+    <rect x="160" y="68" width="14" height="44" rx="2" fill="#E05A5A"/>
+    <line x1="201" y1="82" x2="201" y2="118" stroke="#6FBA2C" stroke-width="2"/>
+    <rect x="194" y="82" width="14" height="30" rx="2" fill="#6FBA2C"/>
+    <line x1="235" y1="60" x2="235" y2="118" stroke="#6FBA2C" stroke-width="2"/>
+    <rect x="228" y="60" width="14" height="52" rx="2" fill="#6FBA2C"/>
+    <line x1="269" y1="74" x2="269" y2="118" stroke="#E05A5A" stroke-width="2"/>
+    <rect x="262" y="74" width="14" height="38" rx="2" fill="#E05A5A"/>
+    <line x1="303" y1="56" x2="303" y2="118" stroke="#6FBA2C" stroke-width="2"/>
+    <rect x="296" y="56" width="14" height="56" rx="2" fill="#6FBA2C"/>
+    <line x1="337" y1="84" x2="337" y2="118" stroke="#E05A5A" stroke-width="2"/>
+    <rect x="330" y="84" width="14" height="28" rx="2" fill="#E05A5A"/>
+    <line x1="371" y1="66" x2="371" y2="118" stroke="#E05A5A" stroke-width="2"/>
+    <rect x="364" y="66" width="14" height="46" rx="2" fill="#E05A5A"/>
+    <line x1="405" y1="76" x2="405" y2="118" stroke="#6FBA2C" stroke-width="2"/>
+    <rect x="398" y="76" width="14" height="36" rx="2" fill="#6FBA2C"/>
+    <line x1="439" y1="78" x2="439" y2="118" stroke="#6FBA2C" stroke-width="2"/>
+    <rect x="432" y="78" width="14" height="34" rx="2" fill="#6FBA2C"/>
+    <line x1="473" y1="90" x2="473" y2="118" stroke="#E05A5A" stroke-width="2"/>
+    <rect x="466" y="90" width="14" height="22" rx="2" fill="#E05A5A"/>
+    <line x1="507" y1="68" x2="507" y2="118" stroke="#E05A5A" stroke-width="2"/>
+    <rect x="500" y="68" width="14" height="44" rx="2" fill="#E05A5A"/>
+    <line x1="541" y1="82" x2="541" y2="118" stroke="#6FBA2C" stroke-width="2"/>
+    <rect x="534" y="82" width="14" height="30" rx="2" fill="#6FBA2C"/>
+    <line x1="575" y1="60" x2="575" y2="118" stroke="#6FBA2C" stroke-width="2"/>
+    <rect x="568" y="60" width="14" height="52" rx="2" fill="#6FBA2C"/>
+    <line x1="609" y1="74" x2="609" y2="118" stroke="#E05A5A" stroke-width="2"/>
+    <rect x="602" y="74" width="14" height="38" rx="2" fill="#E05A5A"/>
+    <line x1="643" y1="56" x2="643" y2="118" stroke="#6FBA2C" stroke-width="2"/>
+    <rect x="636" y="56" width="14" height="56" rx="2" fill="#6FBA2C"/>
+    <line x1="677" y1="84" x2="677" y2="118" stroke="#E05A5A" stroke-width="2"/>
+    <rect x="670" y="84" width="14" height="28" rx="2" fill="#E05A5A"/>
+    <line x1="711" y1="66" x2="711" y2="118" stroke="#E05A5A" stroke-width="2"/>
+    <rect x="704" y="66" width="14" height="46" rx="2" fill="#E05A5A"/>
+    <line x1="745" y1="76" x2="745" y2="118" stroke="#6FBA2C" stroke-width="2"/>
+    <rect x="738" y="76" width="14" height="36" rx="2" fill="#6FBA2C"/>
+    </g>
+  </g>
+  <rect x="92" y="140" width="236" height="8" rx="4" fill="#F0E8D8"/>
+  <rect x="92" y="140" width="6" height="8" rx="4" fill="#19C8B9">
+    <animate attributeName="width" values="0;236" dur="5s" repeatCount="indefinite"/>
+  </rect>
+  <circle cy="144" r="7" fill="#F8F8F0" stroke="#19C8B9" stroke-width="2.5">
+    <animate attributeName="cx" values="92;328" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  </g>
+</svg>

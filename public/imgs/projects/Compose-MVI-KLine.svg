@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="200" viewBox="0 0 880 200" font-family="Nunito,'Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif">
+  <rect x="1.5" y="1.5" width="877" height="197" rx="18" fill="#F8F8F0" stroke="#DCD8D1" stroke-width="2"/>
+  <rect x="34" y="26" width="80" height="26" rx="13" fill="#E6F9F6"/>
+  <text x="74" y="44" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1" fill="#19C8B9">08 · 蓝图</text>
+  <text x="34" y="90" font-size="26" font-weight="800" fill="#794F27">Compose-MVI-KLine</text>
+  <text x="34" y="122" font-size="13" fill="#794F27" opacity="0.92">手绘 Canvas K线的 2026 Android 工程蓝图</text>
+  <text x="34" y="172" font-size="11" fill="#9F927D">github.com/bayshier/Compose-MVI-KLine</text>
+  <line x1="506" y1="24" x2="506" y2="176" stroke="#DCD8D1" stroke-width="2" stroke-dasharray="2 7"/>
+  <g transform="translate(524,18)">
+  <rect x="16" y="10" width="200" height="144" rx="12" fill="#FFFFFF" stroke="#794F27" stroke-width="2"/>
+  <polyline points="36,120 60,96 84,108 108,72 132,88 156,60 180,80" fill="none" stroke="#19C8B9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="400">
+    <animate attributeName="stroke-dashoffset" values="400;0;0" keyTimes="0;0.62;1" dur="4.5s" repeatCount="indefinite"/>
+  </polyline>
+  <circle cx="0" cy="0" r="4.5" fill="#F5C31C" stroke="#794F27" stroke-width="1">
+    <animateMotion dur="2.4s" repeatCount="indefinite" path="M278,40 L278,148"/>
+  </circle>
+  <rect x="240" y="28" width="76" height="24" rx="12" fill="#E6F9F6" stroke="#19C8B9" stroke-width="1.5"/>
+  <text x="278" y="44" text-anchor="middle" font-size="12" font-weight="700" fill="#19C8B9">Intent</text>
+  <rect x="240" y="84" width="76" height="24" rx="12" fill="#E6F9F6" stroke="#19C8B9" stroke-width="1.5"/>
+  <text x="278" y="100" text-anchor="middle" font-size="12" font-weight="700" fill="#19C8B9">UiState</text>
+  <rect x="240" y="140" width="76" height="24" rx="12" fill="#E6F9F6" stroke="#19C8B9" stroke-width="1.5"/>
+  <text x="278" y="156" text-anchor="middle" font-size="12" font-weight="700" fill="#19C8B9">Render</text>
+  <line x1="278" y1="56" x2="278" y2="80" stroke="#9F927D" stroke-width="2"/>
+  <polygon points="274,78 282,78 278,84" fill="#9F927D"/>
+  <line x1="278" y1="112" x2="278" y2="136" stroke="#9F927D" stroke-width="2"/>
+  <polygon points="274,134 282,134 278,140" fill="#9F927D"/>
+  </g>
+</svg>
