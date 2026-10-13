@@ -1,5 +1,8 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3DD4C6,100:19C8B9&height=180&section=header&text=Easin's%20Code%20Lab&fontSize=60&fontColor=ffffff&animation=fadeIn&desc=Cozy%20Coding%20Island%20%C2%B7%20%E4%BB%A3%E7%A0%81%E5%B0%8F%E5%B2%9B&descSize=16&descAlignY=72" width="100%"/>
+  <a href="https://bayshier.github.io/anime-character-museum/">
+    <img src="./public/imgs/anime-collage-banner.jpg" width="100%" alt="经典动漫人物博物馆 · 214 位经典人物 · 点击进入" title="经典动漫人物博物馆 —— 点击进入" />
+  </a>
+  <sub><blockquote><i>🗂️ 我的新项目：<a href="https://bayshier.github.io/anime-character-museum/">经典动漫人物博物馆</a> —— 214 位经典人物 · 五座年代展厅 · 全息闪卡可下载（图片来源于网络，侵删）</i></blockquote></sub>
 
   <table>
     <tr>
