@@ -1,9 +1,4 @@
 <div align="center">
-  <a href="https://bayshier.github.io/anime-character-museum/">
-    <img src="./public/imgs/anime-collage-banner.jpg" width="100%" alt="经典动漫人物博物馆 · 214 位经典人物 · 点击进入" title="经典动漫人物博物馆 —— 点击进入" />
-  </a>
-  <sub><blockquote><i>🗂️ 我的新项目：<a href="https://bayshier.github.io/anime-character-museum/">经典动漫人物博物馆</a> —— 214 位经典人物 · 五座年代展厅 · 全息闪卡可下载（图片来源于网络，侵删）</i></blockquote></sub>
-
   <table>
     <tr>
       <td align="center" width="33%">
@@ -49,7 +44,11 @@
 
 ### 🧺 开源矩阵 (Open Source Matrix)
 
-AI Agent 工具链以 Kotlin 构建，每层独立可用——每个项目都配了动图：
+AI Agent 工具链以 Kotlin 构建，每层独立可用——每个项目都配了动图；新展馆也住进了矩阵：
+
+<p align="center">
+  <a href="https://bayshier.github.io/anime-character-museum/"><img src="./public/imgs/projects/anime-character-museum.svg" width="100%" alt="经典动漫人物博物馆 · 214 位经典人物 · 五座年代展厅 · 全息闪卡可下载"/></a>
+</p>
 
 <p align="center">
   <a href="https://github.com/bayshier/kline-mcp"><img src="./public/imgs/projects/kline-mcp.svg" width="100%" alt="kline-mcp · A股 K线与指标 MCP：双源容灾 + 本地指标计算"/></a>

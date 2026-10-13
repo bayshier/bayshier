@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="200" viewBox="0 0 880 200" font-family="Nunito,'Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif">
+  <defs>
+    <linearGradient id="holo-teal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#19C8B9"/><stop offset="1" stop-color="#7CE8DD"/>
+    </linearGradient>
+    <linearGradient id="holo-pink" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF5C8A"/><stop offset="1" stop-color="#FFB3C9"/>
+    </linearGradient>
+    <linearGradient id="holo-violet" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7C5CFF"/><stop offset="1" stop-color="#B9A6FF"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="1.5" y="1.5" width="877" height="197" rx="18" fill="#F8F8F0" stroke="#DCD8D1" stroke-width="2"/>
+  <rect x="34" y="26" width="86" height="26" rx="13" fill="#E6F9F6"/>
+  <text x="77" y="44" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1" fill="#19C8B9">✦ 新展馆</text>
+  <text x="34" y="92" font-size="26" font-weight="800" fill="#794F27">经典动漫人物博物馆</text>
+  <text x="34" y="124" font-size="13" fill="#794F27" opacity="0.92">214 位经典人物 · 五座年代展厅 · 主题曲点开即播 · 全息闪卡可下载</text>
+  <text x="34" y="172" font-size="11" fill="#9F927D">bayshier.github.io/anime-character-museum · 免费参观 · 无广告</text>
+  <line x1="506" y1="24" x2="506" y2="176" stroke="#DCD8D1" stroke-width="2" stroke-dasharray="2 7"/>
+
+  <g transform="translate(524,18)">
+    <g transform="translate(26,30)">
+      <g transform="rotate(-9)">
+        <animateTransform attributeName="transform" type="translate" additive="sum" values="0 0;0 -7;0 0" dur="4s" repeatCount="indefinite"/>
+        <rect width="80" height="108" rx="12" fill="#FFFFFF" stroke="#19C8B9" stroke-width="2"/>
+        <rect x="8" y="8" width="64" height="54" rx="8" fill="url(#holo-teal)"/>
+        <circle cx="40" cy="30" r="13" fill="#FFFFFF" opacity="0.85"/>
+        <path d="M 22 62 Q 40 44 58 62 Z" fill="#FFFFFF" opacity="0.85"/>
+        <rect x="8" y="72" width="46" height="5" rx="2.5" fill="#DCD8D1"/>
+        <rect x="8" y="83" width="32" height="5" rx="2.5" fill="#EDE8DD"/>
+      </g>
+    </g>
+    <g transform="translate(138,12)">
+      <g transform="rotate(3)">
+        <animateTransform attributeName="transform" type="translate" additive="sum" values="0 0;0 -9;0 0" dur="5s" begin="-1.2s" repeatCount="indefinite"/>
+        <rect width="80" height="108" rx="12" fill="#FFFFFF" stroke="#FF5C8A" stroke-width="2"/>
+        <rect x="8" y="8" width="64" height="54" rx="8" fill="url(#holo-pink)"/>
+        <path d="M 40 16 L 44 27 L 55 27 L 46 34 L 49 45 L 40 38 L 31 45 L 34 34 L 25 27 L 36 27 Z" fill="#FFFFFF" opacity="0.9"/>
+        <rect x="8" y="72" width="46" height="5" rx="2.5" fill="#DCD8D1"/>
+        <rect x="8" y="83" width="32" height="5" rx="2.5" fill="#EDE8DD"/>
+      </g>
+    </g>
+    <g transform="translate(248,32)">
+      <g transform="rotate(10)">
+        <animateTransform attributeName="transform" type="translate" additive="sum" values="0 0;0 -6;0 0" dur="4.6s" begin="-2.4s" repeatCount="indefinite"/>
+        <rect width="80" height="108" rx="12" fill="#FFFFFF" stroke="#7C5CFF" stroke-width="2"/>
+        <rect x="8" y="8" width="64" height="54" rx="8" fill="url(#holo-violet)"/>
+        <circle cx="29" cy="28" r="9" fill="#FFFFFF" opacity="0.85"/>
+        <path d="M 15 60 Q 29 42 43 60 Z" fill="#FFFFFF" opacity="0.85"/>
+        <circle cx="55" cy="34" r="6" fill="#FFFFFF" opacity="0.6"/>
+        <rect x="8" y="72" width="46" height="5" rx="2.5" fill="#DCD8D1"/>
+        <rect x="8" y="83" width="32" height="5" rx="2.5" fill="#EDE8DD"/>
+      </g>
+    </g>
+    <g fill="#F5C31C">
+      <path d="M 0 -7 L 1.8 -1.8 L 7 0 L 1.8 1.8 L 0 7 L -1.8 1.8 L -7 0 L -1.8 -1.8 Z" transform="translate(122,14)" opacity="0.2">
+        <animate attributeName="opacity" values="0.15;1;0.15" dur="2.2s" repeatCount="indefinite"/>
+      </path>
+      <path d="M 0 -6 L 1.6 -1.6 L 6 0 L 1.6 1.6 L 0 6 L -1.6 1.6 L -6 0 L -1.6 -1.6 Z" transform="translate(236,20)" opacity="0.2">
+        <animate attributeName="opacity" values="0.15;1;0.15" dur="2.8s" begin="-0.9s" repeatCount="indefinite"/>
+      </path>
+      <path d="M 0 -8 L 2.2 -2.2 L 8 0 L 2.2 2.2 L 0 8 L -2.2 2.2 L -8 0 L -2.2 -2.2 Z" transform="translate(336,10)" opacity="0.2">
+        <animate attributeName="opacity" values="0.15;1;0.15" dur="3.4s" begin="-1.6s" repeatCount="indefinite"/>
+      </path>
+      <path d="M 0 -6 L 1.6 -1.6 L 6 0 L 1.6 1.6 L 0 6 L -1.6 1.6 L -6 0 L -1.6 -1.6 Z" transform="translate(116,124)" opacity="0.2">
+        <animate attributeName="opacity" values="0.15;1;0.15" dur="2.5s" begin="-1.9s" repeatCount="indefinite"/>
+      </path>
+      <path d="M 0 -7 L 1.8 -1.8 L 7 0 L 1.8 1.8 L 0 7 L -1.8 1.8 L -7 0 L -1.8 -1.8 Z" transform="translate(340,116)" opacity="0.2">
+        <animate attributeName="opacity" values="0.15;1;0.15" dur="3s" begin="-0.5s" repeatCount="indefinite"/>
+      </path>
+    </g>
+  </g>
+</svg>
