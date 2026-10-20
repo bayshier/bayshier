@@ -47,7 +47,7 @@
 AI Agent 工具链以 Kotlin 构建，每层独立可用——每个项目都配了动图；新展馆也住进了矩阵：
 
 <p align="center">
-  <a href="https://bayshier.github.io/anime-character-museum/"><img src="./public/imgs/projects/anime-character-museum.svg" width="100%" alt="经典动漫人物博物馆 · 数百位经典人物 · 五座年代展厅 · 全息闪卡可下载"/></a>
+  <a href="https://github.com/bayshier/anime-character-museum" title="去 GitHub 给博物馆点个 Star ⭐"><img src="./public/imgs/projects/anime-character-museum.svg" width="100%" alt="经典动漫人物博物馆 · 数百位经典人物 · 五座年代展厅 · 全息闪卡可下载"/></a>
 </p>
 
 <p align="center">
