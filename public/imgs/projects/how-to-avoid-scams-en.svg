@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="200" viewBox="0 0 880 200" font-family="Nunito,'Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif">
+  <rect x="1.5" y="1.5" width="877" height="197" rx="18" fill="#F8F8F0" stroke="#DCD8D1" stroke-width="2"/>
+  <rect x="34" y="26" width="112" height="26" rx="13" fill="#FFF1F0"/>
+  <text x="90" y="44" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1" fill="#B42318">EN · 反骗手册</text>
+  <text x="34" y="92" font-size="26" font-weight="800" fill="#794F27">How to Avoid Scams</text>
+  <text x="34" y="124" font-size="13" fill="#794F27" opacity="0.92">骗局换皮，操纵不变 · 32 篇拆解英译 + 骗子五板斧</text>
+  <text x="34" y="172" font-size="11" fill="#9F927D">bayshier.github.io/how-to-avoid-scams-en · 译自《人间防骗指南》</text>
+  <line x1="506" y1="24" x2="506" y2="176" stroke="#DCD8D1" stroke-width="2" stroke-dasharray="2 7"/>
+
+  <g transform="translate(524,18)">
+    <!-- 五板斧：五张竖条，像被刀依次劈开 -->
+    <rect x="0" y="26" width="322" height="126" rx="12" fill="#0F1115"/>
+    <g>
+      <rect x="14" y="40" width="54" height="66" rx="8" fill="#FFD166">
+        <animate attributeName="opacity" values="1;0.86;1" dur="5s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="75" y="40" width="54" height="66" rx="8" fill="#FFA94D">
+        <animate attributeName="opacity" values="0.86;1;0.86" dur="5s" begin="-1s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="136" y="40" width="54" height="66" rx="8" fill="#FF8787">
+        <animate attributeName="opacity" values="0.86;1;0.86" dur="5s" begin="-3.75s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="197" y="40" width="54" height="66" rx="8" fill="#FF5A4F">
+        <animate attributeName="opacity" values="0.86;1;0.86" dur="5s" begin="-2.5s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="258" y="40" width="54" height="66" rx="8" fill="#B42318">
+        <animate attributeName="opacity" values="0.86;1;0.86" dur="5s" begin="-1.25s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <g font-size="9.5" font-weight="700" fill="#EDEDEF" text-anchor="middle" letter-spacing="0.3">
+      <text x="41" y="128">FEAR</text>
+      <text x="102" y="128">AUTH</text>
+      <text x="163" y="128">GREED</text>
+      <text x="224" y="128">URGENT</text>
+      <text x="285" y="128">ISOLATE</text>
+    </g>
+    <!-- 一道挂断的斜线：遇到就挂电话（静态帧即完整可见，动画只做描边亮度呼吸） -->
+    <line x1="8" y1="116" x2="316" y2="30" stroke="#F8F8F0" stroke-width="5" stroke-linecap="round"/>
+    <line x1="8" y1="116" x2="316" y2="30" stroke="#B42318" stroke-width="2.5" stroke-linecap="round">
+      <animate attributeName="stroke" values="#B42318;#FF5A4F;#B42318" dur="3s" repeatCount="indefinite"/>
+    </line>
+    <text x="161" y="176" text-anchor="middle" font-size="11" font-weight="700" fill="#B42318">When in doubt — hang up.</text>
+  </g>
+</svg>

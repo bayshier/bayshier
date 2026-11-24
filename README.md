@@ -44,10 +44,14 @@
 
 ### 🧺 开源矩阵 (Open Source Matrix)
 
-AI Agent 工具链以 Kotlin 构建，每层独立可用——每个项目都配了动图；新展馆也住进了矩阵：
+AI Agent 工具链以 Kotlin 构建，每层独立可用——每个项目都配了动图；新展馆与英文反骗手册也住进了矩阵：
 
 <p align="center">
   <a href="https://github.com/bayshier/anime-character-museum" title="去 GitHub 给博物馆点个 Star ⭐"><img src="./public/imgs/projects/anime-character-museum.svg" width="100%" alt="经典动漫人物博物馆 · 数百位经典人物 · 五座年代展厅 · 全息闪卡可下载"/></a>
+</p>
+
+<p align="center">
+  <a href="https://bayshier.github.io/how-to-avoid-scams-en/" title="How to Avoid Scams — English edition of China's 405-story anti-scam handbook"><img src="./public/imgs/projects/how-to-avoid-scams-en.svg" width="100%" alt="How to Avoid Scams · 骗局换皮，操纵不变：32 篇骗局拆解英译 + 骗子五板斧"/></a>
 </p>
 
 <p align="center">
